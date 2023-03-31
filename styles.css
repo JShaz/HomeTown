@@ -1,0 +1,79 @@
+.intro {
+    display: flex;
+    justify-content: space-around;
+}
+.welcome{
+    background-image: url(pahokeecover.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 8px blue;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+
+}
+
+.border {
+    border-top: 2px solid blue;
+    width: 40%;
+    margin: 35px;
+}
+
+.about-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.info {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+
+    
+}
+
+section {
+     margin: 10px 100px;
+     text-align: center;
+}
+
+p {
+    width: 300px;
+    font-size: 18px;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+}
+
+.card{
+    width: 400px;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-around;
+    text-align: center;
+    background-color: blue;
+    color: black;
+    border-bottom: 6px solid grey;
+
+}
